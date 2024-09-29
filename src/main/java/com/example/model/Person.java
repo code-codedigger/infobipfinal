@@ -15,6 +15,7 @@ public class Person {
 	@org.springframework.data.annotation.Id
 	private String Id;
 	private String firstName;
+	private String lname;
 
 	public String getFirstName() {
 		return firstName;
